@@ -3,7 +3,7 @@ node_modules: package.json
 	@npm install
 
 test:
-	@mocha
+	@./node_modules/.bin/mocha
 
 .PHONY: test
 
