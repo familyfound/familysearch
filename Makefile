@@ -5,7 +5,7 @@ lint:
 node_modules: package.json
 	@npm install
 
-test:
+test: lint
 	@./node_modules/.bin/mocha
 
 .PHONY: test
