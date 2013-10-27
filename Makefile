@@ -1,4 +1,7 @@
 
+lint:
+	@jshint *.json *.js lib
+
 node_modules: package.json
 	@npm install
 
